@@ -1,6 +1,4 @@
-
-// Change document background color to
-// silver
+// Change document background color to silver
 let child=document.getElementById("container").children
 console.log({child});
 
@@ -9,13 +7,11 @@ console.log({lastChild});
 
 document.getElementById("container").style.backgroundColor="silver"
 
-// Change the font color for h1 title tag to
-// green
+// Change the font color for h1 title tag to green
 document.getElementById("title").style.color="green"
 
 
-// Change the font case for h3 title tags to
-// uppercase
+// Change the font case for h3 title tags to uppercase
 document.getElementById("fruits").style.textTransform="uppercase"
 document.getElementById("vege").style.textTransform="uppercase"
 
